@@ -1,0 +1,258 @@
+:root {
+    --accent-color: #2196F3;
+    --main-text-color: #240404;
+    --secondary-text-color: #757575;
+    --invert-text-color: #fff;
+    --dark-background-color: #2F303A;
+    --light-background-color: #F5F4FA;
+}
+
+/* ===== start HEADER ===== */
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header-nav-list-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.header-address-list-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/* ===== end HEADER ===== */
+
+/* ===== start HERO ===== */
+
+.hero {
+    background-color: var(--dark-background-color);
+}
+
+.hero-title {
+    color: var(--invert-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--invert-text-color);
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+
+/* ===== end HERO ===== */
+
+/* ===== start WHYWE ===== */
+
+.whywe-feature {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.whywe-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* ===== end WHYWE ===== */
+
+/* ===== start WHATWEDO ===== */
+
+.whatwedo-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ===== end WHATWEDO ===== */
+
+/* ===== start OURTEAM ===== */
+
+.ourteam {
+    background-color: var(--light-background-color);
+}
+
+.ourteam-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ourteam-list-item {
+    background-color: #fff;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.ourteam-specialist {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ourteam-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* ===== end OURTEAM ===== */
+
+/* ===== start PROJECTS ===== */
+
+.projects-nav-button {
+    height: 38px;
+    background: var(--light-background-color);
+    border-radius: 4px;
+}
+
+.projects-nav-button:hover,
+.projects-nav-button:focus {
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: var(--invert-text-color);
+}
+
+.projects-list-item {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/* ===== end PROJECTS ===== */
+
+/* ===== start FOOTER ===== */
+
+.footer {
+    background-color: var(--dark-background-color);
+    color: var(--invert-text-color);
+}
+
+.footer-list {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address-link {
+    text-decoration: none;
+    color: var(--invert-text-color);
+    opacity: 0.6;
+}
+
+.address-link:hover, .address-link:focus {
+    color: var(--invert-text-color);
+    opacity: 1;
+}
+
+/* ===== end FOOTER ===== */
+
+/* ===== start COMMON STYLES ===== */
+
+body {
+    color: var(--main-text-color);
+    font-family: Roboto;
+    font-style: normal;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+    border-width: 0;
+}
+
+.link,
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-blue,
+.current-page,
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+/* ===== end COMMON STYLES ===== */
+
+/*  ===== elements HIDING ===== */
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*  ===== elements HIDING ===== */
