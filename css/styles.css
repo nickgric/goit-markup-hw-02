@@ -11,7 +11,6 @@
 
 .logo {
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -207,8 +206,7 @@
 
 body {
     color: var(--main-text-color);
-    font-family: Roboto;
-    font-style: normal;
+    font-family: Roboto, sans-serif;
 }
 
 ul,
