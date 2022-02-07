@@ -1,6 +1,6 @@
 :root {
-    --accent-color: #2196F3;
-    --main-text-color: #240404;
+    --accent-color: rgb(33, 150, 243), 90%, 54%);
+    --main-text-color: #212121;
     --secondary-text-color: #757575;
     --invert-text-color: #fff;
     --dark-background-color: #2F303A;
