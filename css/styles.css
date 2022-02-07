@@ -54,10 +54,18 @@
 .hero-button {
     background-color: var(--accent-color);
     color: var(--invert-text-color);
-    width: 200px;
-    height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
 }
 
 .hero-button:hover,
@@ -141,16 +149,21 @@
 /* ===== start PROJECTS ===== */
 
 .projects-nav-button {
-    height: 38px;
     background: var(--light-background-color);
     border-radius: 4px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 6px 22px;
 }
 
 .projects-nav-button:hover,
 .projects-nav-button:focus {
     background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
     color: var(--invert-text-color);
 }
 
@@ -191,13 +204,16 @@
 
 .address-link {
     text-decoration: none;
-    color: var(--invert-text-color);
-    opacity: 0.6;
+    color: rgba(255,255,255,0.6);
 }
 
-.address-link:hover, .address-link:focus {
-    color: var(--invert-text-color);
-    opacity: 1;
+.address-link-address {
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.address-link:hover, .address-link:focus, .address-link-address:hover, .address-link-address:focus {
+    text-decoration: underline rgba(255, 255, 255, 0.6);
 }
 
 /* ===== end FOOTER ===== */
@@ -238,7 +254,7 @@ button {
 
 /* ===== end COMMON STYLES ===== */
 
-/*  ===== elements HIDING ===== */
+/*  ===== elements HIDDEN ===== */
 .hidden {
     position: absolute;
     width: 1px;
@@ -253,4 +269,4 @@ button {
     overflow: hidden;
 }
 
-/*  ===== elements HIDING ===== */
+/*  ===== elements HIDDEN ===== */
